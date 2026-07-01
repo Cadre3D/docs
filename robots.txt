@@ -1,0 +1,23 @@
+# Search engines
+User-agent: *
+Allow: /
+
+# AI and answer engines are welcome to read and cite these docs
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-Web
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://cadre3d.github.io/docs/sitemap.xml

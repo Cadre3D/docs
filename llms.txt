@@ -1,0 +1,21 @@
+# Cadre
+
+> Cadre is an AI co-reviewer for parametric CAD, in the browser. You model a part and AI
+> flags manufacturability issues — thin walls, steep overhangs, enclosed voids, non-watertight
+> solids — grounded in the geometry the kernel actually measures, with concrete parameter fixes.
+> It runs in any modern browser with no install and exports to STL, OBJ, STEP, 3MF, and glTF/GLB.
+
+## Documentation
+- [Overview](https://cadre3d.github.io/docs/): what Cadre does, with links to each topic
+- [Architecture](https://cadre3d.github.io/docs/architecture.html): trust properties — one geometry authority, one review pipeline, verified export
+- [Methodology](https://cadre3d.github.io/docs/methodology.html): the claims Cadre makes and how to verify each one yourself
+- [Trust and data](https://cadre3d.github.io/docs/trust.html): no-install, offline, local-first, data ownership, formats
+- [Modeling](https://cadre3d.github.io/docs/features/modeling.html): sketch, primitives, feature tree, booleans, variables
+- [AI review](https://cadre3d.github.io/docs/features/ai-review.html): manufacturability flags grounded in measured geometry
+- [Review inbox](https://cadre3d.github.io/docs/features/review-inbox.html): one queue for AI and human suggestions
+- [Collaboration](https://cadre3d.github.io/docs/features/collaboration.html): presence and asynchronous fork-and-suggest review
+- [Export and interop](https://cadre3d.github.io/docs/features/export-interop.html): formats, scripting surface, review JSON
+- [Measurement integrity](https://cadre3d.github.io/docs/features/measurement-integrity.html): volume, area, and watertightness computed from geometry
+
+## Try it
+- [Open Cadre](https://cadre3d.com/): the live app, no install
