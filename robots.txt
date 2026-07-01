@@ -20,4 +20,4 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-Sitemap: https://cadre3d.github.io/docs/sitemap.xml
+Sitemap: https://docs.cadre3d.com/sitemap.xml

@@ -1,7 +1,7 @@
 title: Cadre Documentation
 description: AI co-reviewer for parametric CAD — model parts in the browser and catch manufacturability issues grounded in measured geometry.
-url: https://cadre3d.github.io
-baseurl: /docs
+url: https://docs.cadre3d.com
+baseurl: ""
 lang: en
 author: Cadre
 
