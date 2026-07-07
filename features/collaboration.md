@@ -41,8 +41,9 @@ single, reversible history entry — the same path an
 
 - **Pinned comments** — double-click any surface to attach a comment anchored to
   that point in 3D. Comments sync to everyone viewing.
-- **Named checkpoints** — save a snapshot of the model at a moment worth
-  returning to, with a thumbnail.
+- **Named checkpoints** — save a snapshot during a working session to compare
+  against and return to, with a thumbnail. Snapshots last for the browser
+  session, and restoring one replaces the current scene.
 
 ## Why this shape
 

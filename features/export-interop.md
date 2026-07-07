@@ -39,11 +39,11 @@ before you build on it.
 
 ## Share a review
 
-- **Review link** — share a read-only link to a review so someone can see the
-  flags and suggestions without opening the editor.
+- **Review link** — share a read-only link to a review. The recipient sees the
+  flags and suggestions alongside the model, and clicking a flag frames the part
+  it points to — no editor or account needed.
 - **Review JSON** — export any review as structured JSON for downstream tools and
-  agents, so a review can feed an automated workflow. The same review is also
-  available as Markdown or a printable page.
+  agents. The same review is also available as Markdown or a printable page.
 
 ## Automation
 

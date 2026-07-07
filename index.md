@@ -23,12 +23,16 @@ screen.
   editable feature tree with variables and expressions.
 - **[Review inbox](features/review-inbox.md)** — one queue for AI and human
   suggestions, each accepted or discarded as a single reversible step.
-- **[AI review](features/ai-review.md)** — manufacturability flags grounded in
-  the kernel's measured geometry, with parameter fixes shown as `old → new`.
+- **[AI review](features/ai-review.md)** — the measurable flags (thin wall,
+  overhang, enclosed void, watertightness) grounded in the kernel's own measured
+  number, with parameter fixes shown as `old → new`; sharp corners and small
+  features are the reviewer's inferred judgment call.
 - **[Collaboration](features/collaboration.md)** — presence, link sharing, and
   asynchronous fork-and-suggest review.
-- **[Export & interop](features/export-interop.md)** — STL, OBJ, STEP, 3MF, and
-  glTF/GLB out; a shareable review link; a structured JSON review for tools.
+- **[Export & interop](features/export-interop.md)** — STL, OBJ, 3MF, and
+  glTF/GLB meshes out, plus STEP with true analytic surfaces (a cylinder exports
+  as a cylinder, not a faceted shell); a shareable review link; a structured
+  JSON review for tools.
 - **[Measurement integrity](features/measurement-integrity.md)** — volume,
   surface area, and watertightness computed from the geometry as trust
   properties.
@@ -41,4 +45,3 @@ screen.
   check each one yourself.
 - **[Trust & data](trust.md)** — no-install, offline-capable, local-first, and
   what stays on your machine.
-

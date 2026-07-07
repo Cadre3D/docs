@@ -31,9 +31,10 @@ the shape updates.
 
 ## Boolean operations
 
-Union, subtract, and intersect combine solids. A boolean that would produce a
-non-watertight or non-manifold result is refused with an explanation rather than
-baked into a broken body, so a combined solid stays sound.
+Union, subtract, and intersect combine solids into a sound, watertight
+body. In the rare case a combination would produce a non-watertight or
+non-manifold result, it is refused with an explanation rather than baked into a
+broken body — so what you keep building on stays sound.
 
 ## Feature tree
 

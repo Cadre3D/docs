@@ -22,12 +22,14 @@ viewport:
   unfused powder and cannot drain.
 - **Non-watertight solids** — non-manifold geometry that will not print cleanly.
 
+Thin walls, overhangs, enclosed voids, and non-watertight solids cite a kernel
+measurement; sharp corners and small features are the reviewer's judgment call
+and carry no measured number.
+
 ## Grounded in measured geometry
 
-This is the property that separates Cadre from a screenshot reviewer. A flag of a
-measured kind — thin wall, overhang, enclosed void, non-watertight solid — must
-cite the kernel's own measured value. If the measurement does not support the
-flag, the flag is dropped before it reaches you.
+A flag of a measured kind must cite the kernel's own measured value. If the
+measurement does not support the flag, the flag is dropped before it reaches you.
 
 So a thin-wall flag reads "wall 0.8 mm, threshold 2.0 mm" — a number you can
 check against a caliper — not a vague "looks thin." See
@@ -50,6 +52,7 @@ another; the presets keep the flags honest to how you will make the part.
 ## Honest scope
 
 The reviewer explains, prioritizes, and suggests. Detection and grounding are
-done by the kernel; the AI turns measured numbers into plain-language flags and
-parameter suggestions. It is not a generate-a-part-from-text tool, and it never
-edits your model on its own — it proposes, and you accept.
+the kernel's; the AI turns measured numbers into plain-language flags and
+suggestions. It is not a generate-a-part-from-text tool, and it never edits your
+model on its own — it proposes, you accept. You choose when to run it, and can
+turn it off entirely.

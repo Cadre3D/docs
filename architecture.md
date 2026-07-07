@@ -35,7 +35,10 @@ one who accepts.
 
 Exports are generated from the exact model the kernel holds, not from a separate
 copy or a screen snapshot. Mesh formats carry the model's triangles; the analytic
-STEP export carries true curved surfaces for the shapes that support them.
+STEP export carries the exact curved surface — a cylinder exports as a cylinder,
+not a ring of flat faces — for primitives, their transforms, and their boolean
+combinations, with a faithful mesh fallback where a surface cannot be
+represented exactly.
 
 The guarantee: what you export is what the kernel measured. You can re-import an
 exported file and confirm it matches.
